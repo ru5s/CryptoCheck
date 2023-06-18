@@ -9,8 +9,7 @@
 /* Begin PBXBuildFile section */
 		B5CCDD152A3F2502002284E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CCDD142A3F2502002284E4 /* AppDelegate.swift */; };
 		B5CCDD172A3F2502002284E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CCDD162A3F2502002284E4 /* SceneDelegate.swift */; };
-		B5CCDD192A3F2502002284E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CCDD182A3F2502002284E4 /* ViewController.swift */; };
-		B5CCDD1C2A3F2502002284E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5CCDD1A2A3F2502002284E4 /* Main.storyboard */; };
+		B5CCDD192A3F2502002284E4 /* GeneralVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CCDD182A3F2502002284E4 /* GeneralVC.swift */; };
 		B5CCDD1E2A3F2504002284E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5CCDD1D2A3F2504002284E4 /* Assets.xcassets */; };
 		B5CCDD212A3F2504002284E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5CCDD1F2A3F2504002284E4 /* LaunchScreen.storyboard */; };
 		B5CCDD2C2A3F2504002284E4 /* Crypto_checkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CCDD2B2A3F2504002284E4 /* Crypto_checkTests.swift */; };
@@ -39,8 +38,7 @@
 		B5CCDD112A3F2502002284E4 /* Crypto check.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto check.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5CCDD142A3F2502002284E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5CCDD162A3F2502002284E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B5CCDD182A3F2502002284E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B5CCDD1B2A3F2502002284E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5CCDD182A3F2502002284E4 /* GeneralVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralVC.swift; sourceTree = "<group>"; };
 		B5CCDD1D2A3F2504002284E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5CCDD202A3F2504002284E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5CCDD222A3F2504002284E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,12 +97,11 @@
 		B5CCDD132A3F2502002284E4 /* Crypto check */ = {
 			isa = PBXGroup;
 			children = (
-				B5CCDD142A3F2502002284E4 /* AppDelegate.swift */,
-				B5CCDD162A3F2502002284E4 /* SceneDelegate.swift */,
-				B5CCDD182A3F2502002284E4 /* ViewController.swift */,
-				B5CCDD1A2A3F2502002284E4 /* Main.storyboard */,
-				B5CCDD1D2A3F2504002284E4 /* Assets.xcassets */,
-				B5CCDD1F2A3F2504002284E4 /* LaunchScreen.storyboard */,
+				B5CCDD482A3F282B002284E4 /* Data base */,
+				B5CCDD472A3F2802002284E4 /* Network requests */,
+				B5CCDD462A3F27F7002284E4 /* Tab bar */,
+				B5CCDD452A3F27E2002284E4 /* Controllers */,
+				B5CCDD442A3F27B9002284E4 /* System files */,
 				B5CCDD222A3F2504002284E4 /* Info.plist */,
 			);
 			path = "Crypto check";
@@ -125,6 +122,62 @@
 				B5CCDD372A3F2504002284E4 /* Crypto_checkUITestsLaunchTests.swift */,
 			);
 			path = "Crypto checkUITests";
+			sourceTree = "<group>";
+		};
+		B5CCDD442A3F27B9002284E4 /* System files */ = {
+			isa = PBXGroup;
+			children = (
+				B5CCDD142A3F2502002284E4 /* AppDelegate.swift */,
+				B5CCDD162A3F2502002284E4 /* SceneDelegate.swift */,
+				B5CCDD1F2A3F2504002284E4 /* LaunchScreen.storyboard */,
+				B5CCDD1D2A3F2504002284E4 /* Assets.xcassets */,
+			);
+			path = "System files";
+			sourceTree = "<group>";
+		};
+		B5CCDD452A3F27E2002284E4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B5CCDD492A3F286B002284E4 /* General Page */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B5CCDD462A3F27F7002284E4 /* Tab bar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Tab bar";
+			sourceTree = "<group>";
+		};
+		B5CCDD472A3F2802002284E4 /* Network requests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Network requests";
+			sourceTree = "<group>";
+		};
+		B5CCDD482A3F282B002284E4 /* Data base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Data base";
+			sourceTree = "<group>";
+		};
+		B5CCDD492A3F286B002284E4 /* General Page */ = {
+			isa = PBXGroup;
+			children = (
+				B5CCDD4A2A3F287B002284E4 /* Components */,
+				B5CCDD182A3F2502002284E4 /* GeneralVC.swift */,
+			);
+			path = "General Page";
+			sourceTree = "<group>";
+		};
+		B5CCDD4A2A3F287B002284E4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +286,6 @@
 			files = (
 				B5CCDD212A3F2504002284E4 /* LaunchScreen.storyboard in Resources */,
 				B5CCDD1E2A3F2504002284E4 /* Assets.xcassets in Resources */,
-				B5CCDD1C2A3F2502002284E4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5CCDD192A3F2502002284E4 /* ViewController.swift in Sources */,
+				B5CCDD192A3F2502002284E4 /* GeneralVC.swift in Sources */,
 				B5CCDD152A3F2502002284E4 /* AppDelegate.swift in Sources */,
 				B5CCDD172A3F2502002284E4 /* SceneDelegate.swift in Sources */,
 			);
@@ -297,14 +349,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B5CCDD1A2A3F2502002284E4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B5CCDD1B2A3F2502002284E4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B5CCDD1F2A3F2504002284E4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,9 +486,10 @@
 				INFOPLIST_FILE = "Crypto check/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,9 +497,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "uz.IsmailovRuslan.Crypto-check";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -470,9 +518,10 @@
 				INFOPLIST_FILE = "Crypto check/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,9 +529,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "uz.IsmailovRuslan.Crypto-check";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
