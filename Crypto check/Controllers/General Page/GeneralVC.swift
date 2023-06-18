@@ -13,7 +13,9 @@ class GeneralVC: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        view.backgroundColor = .red
+        view.backgroundColor = .systemGray3
+        
+        navigationController?.isNavigationBarHidden = true
     }
 
 
