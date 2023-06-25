@@ -22,6 +22,8 @@ class TabBar: UITabBarController {
 
         tabBar.tintColor = tabBarActiveColor
         tabBar.unselectedItemTintColor = tabBarPassiveColor
+        tabBar.backgroundColor = .black.withAlphaComponent(0.5)
+        tabBar.isTranslucent = true
         
         setupVCs()
     }

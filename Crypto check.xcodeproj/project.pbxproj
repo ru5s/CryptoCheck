@@ -9,6 +9,18 @@
 /* Begin PBXBuildFile section */
 		8BD1E3A5E68494FABB7E02E6 /* Pods_Crypto_check.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3135EF43B0F84B209A563B89 /* Pods_Crypto_check.framework */; };
 		B5A9DB242A3F3192004DF971 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A9DB232A3F3192004DF971 /* TabBar.swift */; };
+		B5A9DB262A3F3A45004DF971 /* TopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A9DB252A3F3A45004DF971 /* TopCollectionViewCell.swift */; };
+		B5A9DB282A3F3A51004DF971 /* BelowCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A9DB272A3F3A51004DF971 /* BelowCollectionViewCell.swift */; };
+		B5A9DB2B2A3F3A92004DF971 /* Titles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A9DB2A2A3F3A92004DF971 /* Titles.swift */; };
+		B5A9DB2D2A3F3AAD004DF971 /* FabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A9DB2C2A3F3AAD004DF971 /* FabButton.swift */; };
+		B5A9DB302A3F3B47004DF971 /* CoinApiModelAllCoins.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A9DB2F2A3F3B47004DF971 /* CoinApiModelAllCoins.swift */; };
+		B5A9DB322A3F3B5D004DF971 /* CoinApiModelPeriodOfCoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A9DB312A3F3B5D004DF971 /* CoinApiModelPeriodOfCoin.swift */; };
+		B5A9DB342A3F3B98004DF971 /* AllCoinService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A9DB332A3F3B98004DF971 /* AllCoinService.swift */; };
+		B5A9DB362A3F3BB0004DF971 /* RealmSchemaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A9DB352A3F3BB0004DF971 /* RealmSchemaService.swift */; };
+		B5A9DB382A3F3BC7004DF971 /* RealmDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A9DB372A3F3BC7004DF971 /* RealmDataModel.swift */; };
+		B5A9DB3B2A3F41A1004DF971 /* CoinApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A9DB3A2A3F41A1004DF971 /* CoinApiRequest.swift */; };
+		B5A9DB3D2A3F4B28004DF971 /* ModelGeneralVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A9DB3C2A3F4B28004DF971 /* ModelGeneralVC.swift */; };
+		B5A9DB3F2A3F73C0004DF971 /* CoinApiModelImageAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A9DB3E2A3F73C0004DF971 /* CoinApiModelImageAsset.swift */; };
 		B5CCDD152A3F2502002284E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CCDD142A3F2502002284E4 /* AppDelegate.swift */; };
 		B5CCDD172A3F2502002284E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CCDD162A3F2502002284E4 /* SceneDelegate.swift */; };
 		B5CCDD192A3F2502002284E4 /* GeneralVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CCDD182A3F2502002284E4 /* GeneralVC.swift */; };
@@ -40,6 +52,18 @@
 		3135EF43B0F84B209A563B89 /* Pods_Crypto_check.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Crypto_check.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		434420CDBAFA548DF48894F8 /* Pods-Crypto check.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crypto check.debug.xcconfig"; path = "Target Support Files/Pods-Crypto check/Pods-Crypto check.debug.xcconfig"; sourceTree = "<group>"; };
 		B5A9DB232A3F3192004DF971 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		B5A9DB252A3F3A45004DF971 /* TopCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCollectionViewCell.swift; sourceTree = "<group>"; };
+		B5A9DB272A3F3A51004DF971 /* BelowCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BelowCollectionViewCell.swift; sourceTree = "<group>"; };
+		B5A9DB2A2A3F3A92004DF971 /* Titles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Titles.swift; sourceTree = "<group>"; };
+		B5A9DB2C2A3F3AAD004DF971 /* FabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabButton.swift; sourceTree = "<group>"; };
+		B5A9DB2F2A3F3B47004DF971 /* CoinApiModelAllCoins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinApiModelAllCoins.swift; sourceTree = "<group>"; };
+		B5A9DB312A3F3B5D004DF971 /* CoinApiModelPeriodOfCoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinApiModelPeriodOfCoin.swift; sourceTree = "<group>"; };
+		B5A9DB332A3F3B98004DF971 /* AllCoinService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCoinService.swift; sourceTree = "<group>"; };
+		B5A9DB352A3F3BB0004DF971 /* RealmSchemaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmSchemaService.swift; sourceTree = "<group>"; };
+		B5A9DB372A3F3BC7004DF971 /* RealmDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmDataModel.swift; sourceTree = "<group>"; };
+		B5A9DB3A2A3F41A1004DF971 /* CoinApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinApiRequest.swift; sourceTree = "<group>"; };
+		B5A9DB3C2A3F4B28004DF971 /* ModelGeneralVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelGeneralVC.swift; sourceTree = "<group>"; };
+		B5A9DB3E2A3F73C0004DF971 /* CoinApiModelImageAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinApiModelImageAsset.swift; sourceTree = "<group>"; };
 		B5CCDD112A3F2502002284E4 /* Crypto check.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto check.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5CCDD142A3F2502002284E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5CCDD162A3F2502002284E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +105,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B5A9DB292A3F3A84004DF971 /* Custom views */ = {
+			isa = PBXGroup;
+			children = (
+				B5A9DB2A2A3F3A92004DF971 /* Titles.swift */,
+				B5A9DB2C2A3F3AAD004DF971 /* FabButton.swift */,
+			);
+			path = "Custom views";
+			sourceTree = "<group>";
+		};
+		B5A9DB2E2A3F3B25004DF971 /* Json models */ = {
+			isa = PBXGroup;
+			children = (
+				B5A9DB2F2A3F3B47004DF971 /* CoinApiModelAllCoins.swift */,
+				B5A9DB312A3F3B5D004DF971 /* CoinApiModelPeriodOfCoin.swift */,
+				B5A9DB3E2A3F73C0004DF971 /* CoinApiModelImageAsset.swift */,
+			);
+			path = "Json models";
+			sourceTree = "<group>";
+		};
+		B5A9DB392A3F4192004DF971 /* Moya */ = {
+			isa = PBXGroup;
+			children = (
+				B5A9DB3A2A3F41A1004DF971 /* CoinApiRequest.swift */,
+			);
+			path = Moya;
+			sourceTree = "<group>";
+		};
 		B5CCDD082A3F2502002284E4 = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +157,7 @@
 		B5CCDD132A3F2502002284E4 /* Crypto check */ = {
 			isa = PBXGroup;
 			children = (
+				B5A9DB292A3F3A84004DF971 /* Custom views */,
 				B5CCDD482A3F282B002284E4 /* Data base */,
 				B5CCDD472A3F2802002284E4 /* Network requests */,
 				B5CCDD462A3F27F7002284E4 /* Tab bar */,
@@ -163,6 +215,9 @@
 		B5CCDD472A3F2802002284E4 /* Network requests */ = {
 			isa = PBXGroup;
 			children = (
+				B5A9DB392A3F4192004DF971 /* Moya */,
+				B5A9DB2E2A3F3B25004DF971 /* Json models */,
+				B5A9DB332A3F3B98004DF971 /* AllCoinService.swift */,
 			);
 			path = "Network requests";
 			sourceTree = "<group>";
@@ -170,6 +225,8 @@
 		B5CCDD482A3F282B002284E4 /* Data base */ = {
 			isa = PBXGroup;
 			children = (
+				B5A9DB352A3F3BB0004DF971 /* RealmSchemaService.swift */,
+				B5A9DB372A3F3BC7004DF971 /* RealmDataModel.swift */,
 			);
 			path = "Data base";
 			sourceTree = "<group>";
@@ -179,6 +236,7 @@
 			children = (
 				B5CCDD4A2A3F287B002284E4 /* Components */,
 				B5CCDD182A3F2502002284E4 /* GeneralVC.swift */,
+				B5A9DB3C2A3F4B28004DF971 /* ModelGeneralVC.swift */,
 			);
 			path = "General Page";
 			sourceTree = "<group>";
@@ -186,6 +244,8 @@
 		B5CCDD4A2A3F287B002284E4 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				B5A9DB252A3F3A45004DF971 /* TopCollectionViewCell.swift */,
+				B5A9DB272A3F3A51004DF971 /* BelowCollectionViewCell.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -383,8 +443,20 @@
 			files = (
 				B5CCDD192A3F2502002284E4 /* GeneralVC.swift in Sources */,
 				B5CCDD152A3F2502002284E4 /* AppDelegate.swift in Sources */,
+				B5A9DB362A3F3BB0004DF971 /* RealmSchemaService.swift in Sources */,
+				B5A9DB322A3F3B5D004DF971 /* CoinApiModelPeriodOfCoin.swift in Sources */,
+				B5A9DB302A3F3B47004DF971 /* CoinApiModelAllCoins.swift in Sources */,
+				B5A9DB3B2A3F41A1004DF971 /* CoinApiRequest.swift in Sources */,
+				B5A9DB262A3F3A45004DF971 /* TopCollectionViewCell.swift in Sources */,
+				B5A9DB382A3F3BC7004DF971 /* RealmDataModel.swift in Sources */,
+				B5A9DB3D2A3F4B28004DF971 /* ModelGeneralVC.swift in Sources */,
 				B5A9DB242A3F3192004DF971 /* TabBar.swift in Sources */,
+				B5A9DB2B2A3F3A92004DF971 /* Titles.swift in Sources */,
+				B5A9DB342A3F3B98004DF971 /* AllCoinService.swift in Sources */,
+				B5A9DB282A3F3A51004DF971 /* BelowCollectionViewCell.swift in Sources */,
 				B5CCDD172A3F2502002284E4 /* SceneDelegate.swift in Sources */,
+				B5A9DB3F2A3F73C0004DF971 /* CoinApiModelImageAsset.swift in Sources */,
+				B5A9DB2D2A3F3AAD004DF971 /* FabButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
